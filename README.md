@@ -1,2 +1,19 @@
-# ngev_mte
-Markovian traffic equilibrium (link-based stochastic user equilibrium) based on the network-GEV model
+# Markovian traffic equilibrium assignment based on network generalized extreme value model
+A link-based stochastic user equilibrium based on the network-GEV model and its solution algorithms for both primal and dual problems.
+
+## Paper
+For more details, please see our paper which has been published in Transportation Research Part B: Methodological:
+Oyama, Y., Hara, Y., Akamatsu, T. (2022) [Markovian traffic equilibrium assignment based on network generalized extreme value model](https://www.sciencedirect.com/science/article/pii/S0191261521001934). Transportation Research Part B: Methodological 155: 135-159.
+
+If you find this code useful, please acknowledge this paper:
+```
+@article{oyama2022markovian,
+  title={Markovian traffic equilibrium assignment based on network generalized extreme value model},
+  author={Oyama, Yuki and Hara, Yusuke and Akamatsu, Takashi},
+  journal={Transportation Research Part B: Methodological},
+  volume={155},
+  pages={135--159},
+  year={2022},
+  publisher={Elsevier}
+}
+```
