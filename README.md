@@ -1,8 +1,9 @@
 # Markovian traffic equilibrium assignment based on network generalized extreme value model
-A link-based stochastic user equilibrium based on the network-GEV model and its solution algorithms for both primal and dual problems.
+Python code for a link-based stochastic user equilibrium based on the network-GEV model and its solution algorithms for both primal and dual problems.
 
 ## Paper
-For more details, please see our paper which has been published in Transportation Research Part B: Methodological:
+For more details, please see our paper that has been published in Transportation Research Part B: Methodological.
+
 Oyama, Y., Hara, Y., Akamatsu, T. (2022) [Markovian traffic equilibrium assignment based on network generalized extreme value model](https://www.sciencedirect.com/science/article/pii/S0191261521001934). Transportation Research Part B: Methodological 155: 135-159.
 
 If you find this code useful, please acknowledge this paper:
@@ -17,3 +18,23 @@ If you find this code useful, please acknowledge this paper:
   publisher={Elsevier}
 }
 ```
+
+## Quick start
+Solve the NGEV equilibrium with Accelerated Gradient Projection method (the dual algorithm) in the Sioux Falls network.
+
+```
+python run.py --model_name 'NGEVMCA' --optimizers 'AGDBT'
+```
+
+## Model options
+Loading model options:
+
+- Logit
+- NGEV ('syntax' for the scale parameters specification)
+
+Solution algorithm options:
+
+- MSA
+- Partial Linearization
+- Gradient Projection
+- Accelerated Gradient Projection
