@@ -29,8 +29,11 @@ python run.py --model_name 'NGEVMCA' --optimizers 'AGDBT'
 ## Model options
 Loading model options:
 
-- Logit
-- NGEV ('syntax' for the scale parameters specification)
+- Logit-based Dial assignment
+- Logit-based Markovian traffic assignment
+- NGEV-based Dial assignment
+- NGEV-based Markovian traffic assignment
+('syntax' for the scale parameters specification)
 
 Solution algorithm options:
 
