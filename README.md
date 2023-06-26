@@ -27,14 +27,13 @@ python run.py --model_name 'NGEVMCA' --optimizers 'AGDBT'
 ```
 
 ## Model options
-Loading model options:
+Loading model options ('syntax' for parameter specification):
 
-- Logit-based Dial assignment
-- Logit-based Markovian traffic assignment
-- NGEV-based Dial assignment
-- NGEV-based Markovian traffic assignment
-
-('syntax' for the scale parameters specification)
+- Logit-based Dial assignment (LogitDial)
+- Logit-based Markov chain assignment (LogitMCA)
+- NGEV-based Dial assignment (NGEVDial)
+- NGEV-based Markov chain assignment (NGEVMCA)
+- Probit assignment (Probit)
 
 Solution algorithm options:
 
