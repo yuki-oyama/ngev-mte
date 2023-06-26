@@ -19,7 +19,7 @@ Please cite this paper if you find this code useful:
 }
 ```
 
-## Quick start
+## Example for Quick Start
 Solve the NGEV equilibrium with Accelerated Gradient Projection method (the dual algorithm) in the Sioux Falls network.
 
 ```
@@ -33,11 +33,12 @@ Loading model options:
 - Logit-based Markovian traffic assignment
 - NGEV-based Dial assignment
 - NGEV-based Markovian traffic assignment
+
 ('syntax' for the scale parameters specification)
 
 Solution algorithm options:
 
-- MSA
-- Partial Linearization
-- Gradient Projection
-- Accelerated Gradient Projection
+- Method of Successive Averages (MSA)
+- Partial Linearization (PL)
+- Gradient Projection (GP/GD)
+- Accelerated Gradient Projection (AGP/AGD)
