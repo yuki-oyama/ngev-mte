@@ -6,7 +6,7 @@ For more details, please see our paper that has been published in Transportation
 
 Oyama, Y., Hara, Y., Akamatsu, T. (2022) [Markovian traffic equilibrium assignment based on network generalized extreme value model](https://www.sciencedirect.com/science/article/pii/S0191261521001934). Transportation Research Part B: Methodological 155: 135-159.
 
-If you find this code useful, please acknowledge this paper:
+Please cite this paper if you find this code useful:
 ```
 @article{oyama2022markovian,
   title={Markovian traffic equilibrium assignment based on network generalized extreme value model},
